@@ -1,0 +1,147 @@
+-----------------------------------------------
+ Web Design Development Using Laravel & Vue Js
+===============================================
+ 1.HTML
+ 2.CSS 
+ 3.JavaScript
+ 4.PHP 
+ 5.SQL & MySql
+
+----------------------------------
+ Web Design & Development 3 Part:
+==================================
+          Front-End:
+                    HTML, CSS, JS
+
+            Back-End:
+                    Java, C#, Python, PHP, ROR
+
+           Data-Base:
+                     Oracle, MSSQL(SQL Server), MySql, MongoDB, Firebase, SqlLite
+
+---------------------
+ We Can Make For Us:
+---------------------
+ Website (Prothomalo.com, bdlove24.com)
+ Web Platform (Daraz.com, Bikroy.com)
+ Web Application (Web Based Software)
+
+_____________________________
+ PHP Programming Coding Way:
+=============================
+           1. Procedural Way
+           2. Object Oriented Programming (OOP) Way
+       
+
+
+=================
+  Syntax Of OOP:
+=================
+ 1. CLASS ... Specification
+ 2. Property ... Information
+ 3. Method ... Activity
+ 4. Object ... Real Thing
+ 5. namespace ... Virtual Directory
+
+
+Before you Create Anything Create Specification First
+----------------------
+     Specification:
+----------------------
+            1. Information
+            2. Activity
+             
+__________________________
+ PHP Working Environment:
+--------------------------
+     -> Apache ... XAMPP
+     -> Composer 
+     -> IDE - Nodepad++, PHP Strome etc.
+     -> Browser - Google Chrome, Mozilla Firefox etc.
+
+
+_________________________________
+---Basic Computer----------------
+_________________________________
+             - On Off 
+             - Office App
+             - Email Send
+             - Internet Browsing
+
+
+
+=====================================
+     Raw PHP - OPP Standard:
+-------------------------------------
+           1. Project Setup ... Done
+           2. PHP Basic Syntax
+           3. Working With View HTML , CSS (Bootstrap)
+           4. Data Share In View
+           5. Security
+
+
+------------------------------------
+     1. Project Setup ... Done
+------------------------------------
+                  New Folder:
+                         app: //folder
+                             classes: HelloWorld.php //file
+                         asset //folder
+                         views //folder
+
+                         index.php //file
+                         composer.json //file
+
+
+
+----------------------------------
+     2. PHP Basic Syntax
+----------------------------------
+          -> Variable & Data Type
+                   
+                     3 Major Rules:
+                   -----------------
+                         1. start with $ sign
+                         2. a-z, A-Z, 0-9, _
+                         3. No number in first
+
+                   
+                    3 Standard Rules:
+                   -------------------
+                          1. small letter
+                          2. meaning full
+                          3. Readable
+                         
+          -> Operator
+                    Arithmetic Operator:  +, -, *, /, %, ++, --, (-)
+                    Assignment Operator:  =, +=, -=, *=, /=, %=, .=
+                    Conditional Operator:  >, >=, <, <=, ==, !=, ===, !==
+                    Logical Operator:  &&, ||, !
+                    
+          -> Statement
+                     Single Line
+                     Conditional:
+                                1. If
+                                2. If Else
+                                3. If Else If
+                                4. Switch
+
+                     Repeated:
+                             1. For Loop
+                             2. While Loop
+                             3. Do While Loop
+                             4. Foreach Loop    
+          -> Array 
+         
+
+      -----------------------------
+        Document Coding Standard:
+      -----------------------------    
+            Variable Name :  small + camelcase // firstName  
+            File Name :  small + underscore // first_name
+            Class Name :  every word first letter - Capital // HelloWorld
+            Function Name :  small + camelcase // firstName  
+            Folder Name :  small + hipen // first-name 
+            Input Field Name :  small + under score // first_name
+            Attribute Name : first letter capital + underscore // First_Name
+
