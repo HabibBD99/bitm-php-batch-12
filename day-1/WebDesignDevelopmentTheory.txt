@@ -131,8 +131,16 @@ _________________________________
                              2. While Loop
                              3. Do While Loop
                              4. Foreach Loop    
-          -> Array 
-         
+          -> Array
+                 Dimension Array 2 Prokar
+                         1. Number Single Array
+                         2. Multi dimension & Nested Array
+
+                 Index Array 3 Prokar;
+                          1. Numeric Array : 0-9
+                          2. Associative Array: a-z, A-Z
+                          3. Hybrid  Array: 0-9, & A-Z
+
 
       -----------------------------
         Document Coding Standard:

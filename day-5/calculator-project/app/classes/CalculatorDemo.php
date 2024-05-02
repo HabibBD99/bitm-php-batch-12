@@ -2,33 +2,121 @@
 namespace App\classes;
 
 
+$this->first_input = $_POST['first_input'];
+$this->second_input = $_POST['second_input'];
+$this->operator = $_POST['submit'];
+$this->result = "";
+
  class CalculatorDemo{
-   private $add;
-   private $sub;
-   private $mul;
-   private $div;
-   private $rem;
+
+     public $first_input ;
+     public $second_input ;
+     public $operator ;
+     public $result;
 
 
-   private $num1;
-   private $num2;
+ public function __construct(){
 
- public function __construct()
- {
-     $this->num1 = "<input type='number' name='fNum'>";
-     $this->num2 = "<input type='number' name='lNum'>";
+     $this->first_input = $_POST['first_input'];
+     $this->second_input = $_POST['second_input'];
+     $this->operator = $_POST['submit'];
+     $this->result = "";
 
-     $this->add = num1 + num2;
-     $this->sub = num1 - num2;
-     $this->mul = num1 * num2;
-     $this->div = num1 / num2;
-     $this->rem = num1 % num2;
-
-     }
-
- public function outputDemo(){
-      echo $this->num1;
-
-   }
 
  }
+
+  function showOutput(){
+
+   if(isset($_POST['submit'])){
+       $this->first_input = $_POST['first_input'];
+       $this->second_input = $_POST['second_input'];
+       $this->operator = $_POST['submit'];
+
+
+       switch($this->operator){
+          case "+":
+          $this->result = $this->first_input + $this->second_input;
+          break;
+
+          case "-":
+          $this->result = $this->first_input - $this->second_input;
+          break;
+
+           case "*":
+           $this->result = $this->first_input * $this->second_input;
+           break;
+
+           case "/":
+           $this->result = $this->first_input / $this->second_input;
+           break;
+
+           case "%":
+           $this->result = $this->first_input % $this->second_input;
+           break;
+
+
+           }
+
+        }
+
+    }
+
+ }
+
+
+ ?>
+
+
+
+<?php
+
+
+
+
+?>
+
+
+
+<form method="post">
+    <table>
+        <tr>
+            <td>
+                <textarea style="height:50px; width:280px; resize:none;">
+                          <?php echo $result; ?>
+                </textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <label>First Number :</label>
+                <input type="number" name="first_input" required="true">
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+            <td>
+                <label>Second Number :</label>
+                <input type="number" name="second_input" required>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" name="submit" value="+">
+                <input type="submit" name="submit" value="-">
+                <input type="submit" name="submit" value="/">
+                <input type="submit" name="submit" value="*">
+                <input type="submit" name="submit" value="%">
+                <input type="reset" name="reset" value="Clear">
+            </td>
+        </tr>
+    </table>
+
+</form>

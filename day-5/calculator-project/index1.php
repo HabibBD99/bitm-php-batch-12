@@ -4,6 +4,6 @@ use App\classes\CalculatorDemo;
 
 
 $helloWorld = new CalculatorDemo();
-$helloWorld->outputDemo();
+$helloWorld->showOutput();
 
 ?>

@@ -1,7 +1,7 @@
 {
   "name": "php-project/php-project",
   "type": "project",
-  "description": "A Simple Calculator Project",
+  "description": "Php Simple Project",
   "keywords": [],
   "license": "",
   "require": {},
@@ -13,4 +13,3 @@
     }
   }
 }
-
